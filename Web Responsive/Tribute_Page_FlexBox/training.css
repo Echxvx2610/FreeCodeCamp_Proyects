@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    flex: 30%;
+    flex-flow: row wrap;
+}
+
+.contenedor{
+    color: white;
+    font-weight: bold;
+    flex: 1;
+}
+.contenedor.primario{
+    background-color: cyan;
+}
+.contenedor.secundario{
+    background-color: crimson;
+}
+.contenedor.terciario{
+    background-color: darkgreen;
+}
+
+.contenedor:nth-last-of-type(1){
+    flex: 3;
+}
