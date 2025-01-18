@@ -1,0 +1,67 @@
+/* Reset basico */
+/* Reset basico */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%; /* Asegura que html y body ocupen el 100% de la altura */
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+header{
+    background-color:ghostwhite;
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+/* clases */
+#title{
+    text-align: center;
+    font-size: 2.5rem;
+    color:rgb(17, 46, 133);
+    margin: auto;
+}
+
+#description{
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgb(24, 49, 124);
+    margin: auto;
+}
+
+#survey-form{
+    width: 80%;
+    height: 400px;    
+    background-color: ghostwhite;
+    margin: auto;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#survey-form #name-label, #email-label, #number-label, #prefer-label, #comment-label, #gender-label, #food-label{
+    font-size: 1.2rem;
+    color:rgb(0, 0, 0);
+    margin: auto;
+    text-align: left;
+    margin-bottom: 5px;
+}
