@@ -1,2 +1,2 @@
 # FreeCodeCamp_Proyects
-Proyectos realizados para certificacion FreeCodeCamp
+Proyectos realizados para certificaciones FreeCodeCamp
