@@ -104,3 +104,8 @@ header{
 }
 
 /* Reponsive */
+@media_screen and (max-width: 200px) {
+    body {
+        width: 100%;
+    }
+}
