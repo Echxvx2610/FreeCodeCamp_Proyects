@@ -1,5 +1,4 @@
 /* Reset basico */
-/* Reset basico */
 * {
     margin: 0px;
     padding: 0px;
@@ -36,13 +35,14 @@ body {
 }
 
 header{
-    background-color:ghostwhite;
+    background-color:transparent;
     padding: 1rem;
     width: 80%;
     margin: auto;
     margin-top: 10%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 /* clases */
@@ -63,10 +63,11 @@ header{
 #survey-form{
     width: 80%;
     height: 500px;    
-    background-color: ghostwhite;
+    background-color: transparent;
     margin: auto;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
     padding:10px;
     display: flex;
     flex-direction: column;
@@ -75,7 +76,7 @@ header{
 
 #survey-form #name-label, #email-label, #number-label, #prefer-label, #comment-label, #gender-label, #food-label{
     font-size: 1.2rem;
-    color:rgb(0, 0, 0);
+    color:rgb(29, 27, 43);
     margin: auto;
     text-align: left;
     margin-bottom: 5px;
