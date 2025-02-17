@@ -1,0 +1,81 @@
+:root {
+    --font-size: 15px;
+    --font-family: "Roboto Mono", serif;
+}
+
+.noto-sans-mono-<uniquifier> {
+    font-family: "Noto Sans Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+body{
+    /* color gradiente */
+    background-color: rgb(203, 236, 237);
+    font-family: "Noto Sans Mono", serif;
+}
+main {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    font-size: calc(var(--font-size) * 2);
+}
+
+#main-doc {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    margin-left: 300px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.main-section header{
+    background-color: black;
+    color: white;
+}
+
+.main-section article,header{
+    padding-left: 10px;
+}
+
+nav {
+    display: block;
+}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    padding: 0px;
+    margin: 0;
+    border-right: solid;
+    border-color: rgb(7, 6, 6);
+    font-size: 1.5rem;
+}
+
+#navbar ul{
+    border-bottom: 2px solid black;
+}
+
+#navbar ul, header,a{
+    padding: 15px;
+    margin: 0px;
+    text-decoration: none;
+    color: rgba(10, 7, 7, 0.736);
+}
+
+#navbar header{
+    background-color: black;
+    color: white;
+}
+
+#navbar ul:hover, #navbar img:hover{
+    background-color: white;
+}
