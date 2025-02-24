@@ -12,16 +12,18 @@
       "wdth" 100;
 }
 
-body{
+body {
     /* color gradiente */
     background-color: rgb(203, 236, 237);
     font-family: "Noto Sans Mono", serif;
 }
+
 main {
     display: block;
     margin: 0px;
     padding: 0px;
 }
+
 header {
     font-size: calc(var(--font-size) * 2);
 }
@@ -35,18 +37,23 @@ header {
     margin-top: 0px;
 }
 
-.main-section header{
+.main-section header {
     background-color: black;
     color: white;
 }
 
-.main-section article,header{
+.main-section article, header {
     padding-left: 10px;
 }
 
 nav {
     display: block;
 }
+
+.nav-link {
+    /* Estilo vacío, se puede agregar estilo si es necesario */
+}
+
 #navbar {
     position: fixed;
     min-width: 290px;
@@ -60,22 +67,67 @@ nav {
     font-size: 1.5rem;
 }
 
-#navbar ul{
+#navbar ul {
     border-bottom: 2px solid black;
 }
 
-#navbar ul, header,a{
+#navbar ul, header, a {
     padding: 15px;
     margin: 0px;
     text-decoration: none;
     color: rgba(10, 7, 7, 0.736);
 }
 
-#navbar header{
+#navbar header {
     background-color: black;
     color: white;
 }
 
-#navbar ul:hover, #navbar img:hover{
+#navbar ul:hover, #navbar img:hover {
     background-color: white;
 }
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 815px) {
+    /* Estilo para el menú de navegación */
+    #navbar ul {
+        border: 1px solid;
+        height: auto; /* Ajuste la altura según el contenido */
+    }
+
+    #navbar {
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+        overflow-y: auto;
+    }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0;
+        margin-top: 270px; /* Ajusta la posición del contenido */
+    }
+}
+
+/* Media Query para pantallas muy pequeñas (móviles pequeños)
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+
+    code {
+        margin-left: -20px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 233px;
+    }
+} */
