@@ -116,7 +116,7 @@ nav {
     }
 }
 
-/* Media Query para pantallas muy pequeñas (móviles pequeños)
+/* Media Query para pantallas muy pequeñas (móviles pequeños)*/
 @media only screen and (max-width: 400px) {
     #main-doc {
         margin-left: -10px;
@@ -130,4 +130,4 @@ nav {
         padding-right: 45px;
         min-width: 233px;
     }
-} */
+}
